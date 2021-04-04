@@ -1,2 +1,12 @@
-# sample-kotlin-spring-rest-consumer
-Demo REST Consumer Kotlin Project based on https://spring.io/guides/gs/consuming-rest/
+# Kotlin Spring REST Consumer (Sample)
+
+'Hello World' REST Consumer Project written in Kotlin based on Spring Guide ["Consuming a RESTful Web Service"](https://spring.io/guides/gs/consuming-rest/)
+
+Tests were **not** implemented.
+
+
+## Usage
+
+```console
+mvnw spring-boot:run
+```
