@@ -20,7 +20,7 @@ class ConsumingRestApplication {
 	@Bean
 	@Throws(Exception::class)
 	fun run(restTemplate: RestTemplate) : CommandLineRunner {
-		return CommandLineRunner { args ->
+		return CommandLineRunner {
 			val quote = restTemplate.getForObject("https://quoters.apps.pcfone.io/api/random", Quote::class.java)
 			log.info(quote.toString())
 		}
